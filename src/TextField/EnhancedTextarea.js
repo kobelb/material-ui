@@ -79,7 +79,7 @@ class EnhancedTextarea extends Component {
   }
 
   handleResize = (event) => {
-    this.syncHeightWithShadow(this.props.value, event);
+    // this.syncHeightWithShadow(this.props.value, event);
   };
 
   getInputNode() {
